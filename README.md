@@ -15,3 +15,5 @@ CsvToJsonConverter is a production‑ready command line tool that converts CSV f
 - **HTTP API (optional)** – Expose conversion as a REST endpoint.
 
 ## Installation
+
+<!-- noticed this could be clearer -->

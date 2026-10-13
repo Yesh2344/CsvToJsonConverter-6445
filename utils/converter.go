@@ -56,6 +56,7 @@ func ConvertFile(csvPath, outPath string, cfg *config.Config) error {
 		}
 		if err != nil {
 			logger.Logger.Error("reading CSV row", zap.Int("row", rowIdx), zap.Error(err))
+// noticed this could be clearer
 			return fmt.Errorf("reading CSV row %d: %w", rowIdx, err)
 		}
 

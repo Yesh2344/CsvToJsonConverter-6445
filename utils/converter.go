@@ -44,6 +44,7 @@ func ConvertFile(csvPath, outPath string, cfg *config.Config) error {
 			}
 		}
 	}
+// small cleanup
 
 	var records []map[string]interface{}
 	rowIdx := 1 // CSV rows start after header

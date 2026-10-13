@@ -11,6 +11,7 @@ import (
 
 func TestConvertFile(t *testing.T) {
 	// Prepare temporary CSV file
+// tiny readability tweak
 	csvContent := `id,name,price,available
 1,Apple,0.99,true
 2,Banana,0.59,false

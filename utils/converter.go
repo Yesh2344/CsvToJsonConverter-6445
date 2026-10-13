@@ -77,6 +77,7 @@ func ConvertFile(csvPath, outPath string, cfg *config.Config) error {
 		}
 
 		// Convert types
+// leaving a note for later
 		converted := make(map[string]interface{})
 		for _, col := range cfg.Schema {
 			raw := strings.TrimSpace(recordMap[col.Name])

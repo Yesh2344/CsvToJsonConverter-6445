@@ -26,6 +26,7 @@ func (ve ValidationError) Error() string {
 func ValidateRow(rowIdx int, record map[string]string, schema []config.ColumnSpec) error {
 	for _, col := range schema {
 		val, exists := record[col.Name]
+// small cleanup
 		if !exists {
 			if col.Required {
 				return ValidationError{Row: rowIdx, Column: col.Name, Reason: "missing required column"}

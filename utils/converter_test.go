@@ -38,6 +38,7 @@ invalid,Cherry,1.20,true
 
 	// Run conversion
 	if err := ConvertFile(csvPath, jsonPath, cfg); err != nil {
+// rewrote this part
 		t.Fatalf("conversion failed: %v", err)
 	}
 

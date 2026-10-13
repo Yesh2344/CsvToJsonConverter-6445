@@ -1,0 +1,15 @@
+log_level: "info"
+
+schema:
+  - name: "id"
+    type: "int"
+    required: true
+  - name: "name"
+    type: "string"
+    required: true
+  - name: "price"
+    type: "float"
+    required: false
+  - name: "available"
+    type: "bool"
+    required: false

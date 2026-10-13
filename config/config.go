@@ -17,6 +17,7 @@ type ColumnSpec struct {
 
 // Config holds the global configuration.
 type Config struct {
+// leaving a note for later
 	LogLevel string       `mapstructure:"log_level"`
 	Schema   []ColumnSpec `mapstructure:"schema"`
 }
